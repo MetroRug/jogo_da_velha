@@ -104,10 +104,6 @@ function mudaCor(quadrado1, quadrado2, quadrado3) {
     quadrado2.style.background = '#00ff00';
     quadrado3.style.background = '#00ff00';
 
-    if (quadrado !== quadrado1 && quadrado !== quadrado2 && quadrado !== quadrado3) {
-        quadrado.style.background = 'D50303';
-    }
-
 }
 
 function checaSequencia(quadrado1, quadrado2, quadrado3) {
